@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sqr.js"></script>
+</head>
+
+<body>
+    <button id="b2" onclick="enableDarkMode()"><img src="img/moon.svg" alt=""></button>
+    <button id="b1" onclick="disableDarkMode()"><img src="img/sun.svg" alt=""></button>
+    <header>
+        <img src="img/aaa.png" alt="" id="header" />
+        <ul class="mee">
+            <li class="m"><a href="index.html" class="link">الرئيسية</a></li>
+            <li class="m"><a href="man2.html" class="link">النشرة الجوية</a></li>
+            <li class="m">
+                <a href="man3.html" class="link">العلوم والتكنولوجيا</a>
+            </li>
+            <li class="m"><a href="man1.html" class="link">الرياضة</a></li>
+            <li class="m"><a href="man4.html" class="link">اتصل بنا</a></li>
+        </ul>
+    </header>
+    <div class="menu">اتصل بنا</div>
+    <div class="box">
+        <div class="titel">
+            مرحبا بك عزيزي المستخدم، إن كنت مهتما بالمحتوى الذي نقدمه وتريد الإنظمام لفريق العمل فنحن نسعد بإنظمامك معنا
+            فقط قم بمراسلتنا حالا.</div>
+        <form id="contact" name="contact-form">
+            <div class="line">
+                <input name="name" required="" type="text" value="" />
+                <label class="textfield"> الإسم الكامل </label>
+            </div>
+            <div class="line">
+                <input name="email" required="" type="text" value="" />
+                <label class="textfield"> البريد الإلكتروني</label>
+            </div>
+            <div class="line">
+                <input name="mobile" required="" type="text" value="" />
+                <label class="textfield">رقم الهاتف (مرفوق بالرمز الدولي)</label>
+            </div>
+            <div class="line">
+                <textarea cols="35" name="email-message" required="">        </textarea>
+                <label class="textfield"> رسالتك </label>
+            </div>
+            <button class="butt" type="submit">
+                إرسال </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
